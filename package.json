@@ -1,0 +1,30 @@
+{
+  "name": "onlinechess",
+  "version": "1.0.0",
+  "description": "OnlineChess",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.15.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.3",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.30",
+    "openurl": "^1.1.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.2",
+    "socket.io": "^2.0.3"
+  },
+  "author": "Vladimir Petrov",
+  "license": "ISC"
+}

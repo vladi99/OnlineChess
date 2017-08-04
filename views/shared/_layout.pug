@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width')
+        title= title
+        block css
+            link(rel='stylesheet', href='/libs/bootstrap/dist/css/bootstrap.css')
+            link(rel='stylesheet', href='/css/style.css')
+            link( rel="stylesheet" href='/libs/toastr/build/toastr.min.css')
+        block AdditionalCss
+    body
+        block content
+
+        block js
+            script(src='/libs/jquery/dist/jquery.min.js')
+            script(src='/libs/bootstrap/dist/js/bootstrap.min.js')
+            script( src='/libs/toastr/build/toastr.min.js')
+        block AdditionalJS
