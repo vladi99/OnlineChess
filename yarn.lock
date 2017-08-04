@@ -129,6 +129,10 @@ character-parser@^2.1.1:
   dependencies:
     is-regex "^1.0.3"
 
+chess.js@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.10.2.tgz#eacefa2067155f87f046e80cc12d2019eef1b81a"
+
 clean-css@^3.3.0:
   version "3.4.28"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-3.4.28.tgz#bf1945e82fc808f55695e6ddeaec01400efd03ff"
