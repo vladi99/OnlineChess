@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="820c015c-9b88-4f68-b0dc-ed581fb50ac0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chess.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.pug" afterPath="$PROJECT_DIR$/views/home.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shared/_layout.pug" afterPath="$PROJECT_DIR$/views/shared/_layout.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/home.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -107,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_layout.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/shared/_layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -229,9 +224,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/views/home.pug" />
         <option value="$PROJECT_DIR$/public/js/chess.js" />
         <option value="$PROJECT_DIR$/views/shared/_layout.pug" />
+        <option value="$PROJECT_DIR$/views/home.pug" />
       </list>
     </option>
   </component>
@@ -613,7 +608,7 @@
       <workItem from="1501829542420" duration="7000" />
       <workItem from="1501829684949" duration="2000" />
       <workItem from="1501829784690" duration="363000" />
-      <workItem from="1501830563436" duration="7528000" />
+      <workItem from="1501830563436" duration="7802000" />
     </task>
     <servers />
   </component>
@@ -650,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="744386000" />
+    <option name="totallyTimeSpent" value="744660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/chess.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,8 +949,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/shared/_layout.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding />
         </state>
       </provider>
