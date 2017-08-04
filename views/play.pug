@@ -1,0 +1,16 @@
+extends shared/_layout
+
+block AdditionalCss
+    link(rel="stylesheet", href="/css/chessboard-0.3.0.css")
+
+block content
+    #board(style='width: 400px')
+    p
+        | Status:
+        span#status
+
+block AdditionalJS
+    script(src='/socket.io/socket.io.js')
+    script(src="/libs/chess.js/chess.js")
+    script(src="/js/chessboard-0.3.0.js")
+    script(src="/js/chess.js")
