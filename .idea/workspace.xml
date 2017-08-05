@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="820c015c-9b88-4f68-b0dc-ed581fb50ac0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/game.controller.js" afterPath="$PROJECT_DIR$/app/controllers/game.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/helpers.js" afterPath="$PROJECT_DIR$/app/helpers/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sockets/playchess.socket.js" afterPath="$PROJECT_DIR$/app/sockets/playchess.socket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/chess.js" afterPath="$PROJECT_DIR$/public/js/chess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/play.pug" afterPath="$PROJECT_DIR$/views/play.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,85 +21,18 @@
       <file leaf-file-name="playchess.socket.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sockets/playchess.socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/game.controller.js">
+      <file leaf-file-name="play.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/play.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="games.data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/games.data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/helpers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/socket.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bB.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/img/chesspieces/wikipedia/bB.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="24" column="73" lean-forward="false" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routers/game.router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -108,8 +41,8 @@
       <file leaf-file-name="chess.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/chess.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -199,7 +132,6 @@
         <option value="$PROJECT_DIR$/app/sockets/sockets.js" />
         <option value="$PROJECT_DIR$/app/config/socket.config.js" />
         <option value="$PROJECT_DIR$/app/controllers/socket.controller.js" />
-        <option value="$PROJECT_DIR$/views/play.pug" />
         <option value="$PROJECT_DIR$/data/base/games.data.js" />
         <option value="$PROJECT_DIR$/data/data.js" />
         <option value="$PROJECT_DIR$/data/base/base.data.js" />
@@ -215,11 +147,12 @@
         <option value="$PROJECT_DIR$/app/config/app.config.js" />
         <option value="$PROJECT_DIR$/data/games.data.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
-        <option value="$PROJECT_DIR$/app/sockets/playchess.socket.js" />
-        <option value="$PROJECT_DIR$/public/js/chess.js" />
         <option value="$PROJECT_DIR$/public/js/chessboard-0.3.0.js" />
         <option value="$PROJECT_DIR$/app/helpers/helpers.js" />
         <option value="$PROJECT_DIR$/app/controllers/game.controller.js" />
+        <option value="$PROJECT_DIR$/views/play.pug" />
+        <option value="$PROJECT_DIR$/public/js/chess.js" />
+        <option value="$PROJECT_DIR$/app/sockets/playchess.socket.js" />
       </list>
     </option>
   </component>
@@ -396,7 +329,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socket.io-chess" />
     <property name="SearchEverywhereHistoryKey" value="con&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/config/config.js&#10;lik&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/public/js/likes-btns.js&#10;fa&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/public/js/favourites.js&#10;profile&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/public/css/profile.css&#10;user&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/data/users.data.js&#10;us&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/data/users.data.js&#10;use&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/app/controllers/users.controller.js&#10;po&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/app/controllers/posts.controller.js&#10;rout&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/app/routers/users.router.js&#10;pa&#9;FILE&#9;file://C:/Users/Vladi/Desktop/NodeJsTeamWork/package.json" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\Vladi\Desktop\NodeJsTeamWork\node_modules\mocha" />
   </component>
@@ -631,7 +564,7 @@
       <workItem from="1501829684949" duration="2000" />
       <workItem from="1501829784690" duration="363000" />
       <workItem from="1501830563436" duration="7802000" />
-      <workItem from="1501940193855" duration="3223000" />
+      <workItem from="1501940193855" duration="8699000" />
     </task>
     <servers />
   </component>
@@ -668,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="767671000" />
+    <option name="totallyTimeSpent" value="773147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,6 +684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,19 +738,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/libraries.js" />
     <entry file="file://$PROJECT_DIR$/public/js/app.js" />
     <entry file="file://$PROJECT_DIR$/app/config/index.js" />
-    <entry file="file://$PROJECT_DIR$/app/sockets/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -835,6 +763,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,6 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,6 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,14 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/play.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -966,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/chess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/img/chesspieces/wikipedia/bB.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -984,7 +899,7 @@
         <state relative-caret-position="1412">
           <caret line="439" column="0" lean-forward="true" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1501891409306" expanded="true" signature="15441:15500" ph="..." />
           </folding>
         </state>
@@ -1022,14 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/game.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1046,10 +953,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/game.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sockets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/play.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/chess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sockets/playchess.socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>

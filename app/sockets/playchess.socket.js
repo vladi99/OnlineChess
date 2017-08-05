@@ -61,8 +61,8 @@ const attachSocket = (io, socket, data ) => {
                     console.log('ERROR: Game Not Found', debugInfo);
                     return;
                 }
-                return game.removePlayer(gameID);
                 console.log('Socket '+this.id+' disconnected');
+                return game.removePlayer(gameID);
             });
     });
 };

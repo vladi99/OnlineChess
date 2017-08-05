@@ -14,3 +14,11 @@ block AdditionalJS
     script(src="/libs/chess.js/chess.js")
     script(src="/js/chessboard-0.3.0.js")
     script(src="/js/chess.js")
+    script.
+        $(document).ready(function (){
+            window.Client({
+                gameID: "#{gameID}",
+                playerColor: "#{playerColor}",
+                playerName: "#{playerName}"
+            });
+        });
