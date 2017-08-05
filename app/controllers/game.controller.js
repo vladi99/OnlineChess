@@ -15,7 +15,7 @@ const gameController = (data, helpers) => {
                     if (!validData) {
                         return res.redirect('/');
                     }
-                    return data.games.create(validData);
+                    return Promise.resolve(data.games.create(validData));
                 }).then((game)=> {
                     req.session.gameID = game._id.toString();
                     req.session.playerColor = game.playerColor;
@@ -25,33 +25,25 @@ const gameController = (data, helpers) => {
                 });
         },
         joinGame(req, res) {
-            // Create a new session
-            req.session.regenerate((err) => {
-                if (err) { res.redirect('/'); return; }
+            // Validate form input
+            return helpers.validateJoinGame(req)
+                .then((validData) => {
+                    if (!validData) {
+                        return res.redirect('/');
+                    }
+                    return Promise.all([data.games.getById(validData.gameID), validData]);
+                }).then(([game, validData]) => {
+                    if (!game) {
+                        return res.redirect('/');
+                    }
+                    const joinColor = (game.playerColor) ? 'white' : 'black';
 
-                // Validate form input
-                const validData = helpers.validateJoinGame(req);
-                if (!validData) {
-                    return res.redirect('/');
-                }
+                    req.session.gameID = validData.gameID;
+                    req.session.playerColor = joinColor;
+                    req.session.playerName = validData.playerName;
 
-                // Find specified game
-                const game = data.games.getById(validData.gameID);
-                if (!game) {
-                    return res.redirect('/');
-                }
-
-                // Determine which player (color) to join as
-                const joinColor = (game.players[0].joined) ? game.players[1].color : game.players[0].color;
-
-                // Save data to session
-                req.session.gameID = validData.gameID;
-                req.session.playerColor = joinColor;
-                req.session.playerName = validData.playerName;
-
-                // Redirect to game page
-                res.redirect('/game/'+validData.gameID);
-            });
+                    return res.redirect('/game/'+validData.gameID);
+                });
         }
     }
 };

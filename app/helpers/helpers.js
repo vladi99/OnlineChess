@@ -57,7 +57,7 @@ const validateJoinGame = (req) => {
 
     // If Player Name consists only of whitespace, set as 'Player 2'
     if (/^\s*$/.test(req.body['player-name'])) {
-        return Promise.resolve(req.body['player-name'] = 'Player 2');
+        req.body['player-name'] = 'Player 2';
     }
 
     return Promise.resolve({
