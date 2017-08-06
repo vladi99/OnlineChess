@@ -30,11 +30,16 @@ var Client = (function (window) {
 
     const attachSockets = function () {
         socket.on('update', function (data) {
-            console.log('here');
+            console.log(data);
+            if(data.move){
+                board.move(data.move.from + '-' + data.move.to);
+                game.move({from: data.move.from, to: data.move.to});
+                updateStatus();
+            }
         })
     };
 
-    const onDragStart = function(source, piece, position, orientation) {
+    const onDragStart = function(source, piece) {
         if (game.game_over() === true ||
             (game.turn() === 'w' && piece.search(/^b/) !== -1) ||
             (game.turn() === 'b' && piece.search(/^w/) !== -1)) {
@@ -98,5 +103,6 @@ var Client = (function (window) {
     };
 
     updateStatus();
+    
     return init;
 }(window));

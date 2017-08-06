@@ -23,6 +23,7 @@ const attachSocket = (io, socket, data ) => {
                     console.log('ERROR: Game Not Found');
                     return socket.emit('error', {message: "Game not found"});
                 }
+                game['move'] = socketData.move;
                 return Promise.resolve(game)
             }).then((game) => {
                 return io.sockets.in(socketData.gameID).emit('update', game);
