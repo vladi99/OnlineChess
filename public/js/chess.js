@@ -7,13 +7,14 @@ var Client = (function (window) {
         playerColor,
         playerName;
 
-
     const init = function (config) {
         gameID = config.gameID;
         playerColor = config.playerColor;
         playerName = config.playerName;
 
         socket = io.connect();
+
+        attachSockets();
 
         const cfg = {
             draggable: true,
@@ -25,6 +26,12 @@ var Client = (function (window) {
         board = ChessBoard('board', cfg);
 
         socket.emit('join', gameID);
+    };
+
+    const attachSockets = function () {
+        socket.on('update', function (data) {
+            console.log('here');
+        })
     };
 
     const onDragStart = function(source, piece, position, orientation) {

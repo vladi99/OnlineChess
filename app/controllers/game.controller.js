@@ -42,7 +42,7 @@ const gameController = (data, helpers) => {
                     req.session.playerColor = joinColor;
                     req.session.playerName = validData.playerName;
 
-                    return res.redirect('/game/'+validData.gameID);
+                    return res.redirect('/game/'+validData.gameID.toString());
                 });
         }
     }
